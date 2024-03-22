@@ -1,0 +1,50 @@
+
+OBJECT REPRESENTATION IN JAVA SCRIPT:
+
+    -> Most Objects contain all their properties in a single block of memory('a' and 'b').All blocks 
+       of memory have a pointer bto a map which describes their structure.
+ 
+   -> Objects are more complex and each Object may contain any combination of these primitive data-types
+      as well as reference data-types.
+
+Object is JS:
+ 
+    In Java Script, an Object is complex data types that allow you to store and organize data in
+Key-value pairs.Object and represent real-world entities and used to model and manipulate information
+efficiently,
+
+Creating Object:
+ 
+        'Object' Constructor
+
+  var person={
+          
+              name: 'sangami', //property
+              age:  25, //property
+              is employeed : true //property
+              };
+     Person => Object
+   'name','age','is employeed' => Properties   
+
+
+Object Properties and Methods:  
+          
+                       Object can contain not only data properties but also methods 
+
+          person.greet=function(){
+                          console.log("Welcome to java script");
+                         };
+
+               person => Object
+               greet  => Method
+
+Internal Representation of Objects:
+             * Internally, JavaScript engines represent objects using various data structures. One common 
+               representation is the hash table, where keys are hashed to optimize property access.
+
+             * The hash table allows for quick lookup of properties, making object access efficient.
+
+Prototypes and inheritance:
+
+           Java Script is a proto type based language and objects can inherit properties and 
+           methods from other Objects through their prototypes.
