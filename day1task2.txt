@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 OBJECT REPRESENTATION IN JAVA SCRIPT:
 
@@ -48,3 +49,6 @@ Prototypes and inheritance:
 
            Java Script is a proto type based language and objects can inherit properties and 
            methods from other Objects through their prototypes.
+=======
+day1task2 file ctreated
+>>>>>>> 0bd607411d9e5e88eed75c83e9120027a355d68c
