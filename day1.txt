@@ -1,0 +1,38 @@
+
+Introduction Of HTTP:
+
+             * The Hypertext Transfer Protocol or HTTP.
+             * It is used in Client Server Protocol.
+             * By using HTTP users send the request to the server and the 
+               server send the response to the user
+
+HTTP1:
+
+           * HTTP1 which is created in 1997
+           * HTTP is an top-level application protocol
+           * It is used to exchange the information between a client
+             computer and local(or)remote WEb SERVER.
+           * It Works on the textual formate
+           * It compress data by itself
+           * Each new"TCP"connection requires separate flow control mechanism
+              -> "TCP" = It is a connection-oriented protocol for communications that helps in the exchange 
+                         of messages between different devices over a network.
+           * The header component message however is always sent as plain text.
+
+HTTP2:
+
+           * HTTP2 which is created in 2015
+           * It works on the binary protocol
+           * It uses HPACK for data compression
+           * HTTP2 was released at google as the significant improvement
+             of its predecessor
+           * Changes to include features like "multiplexing, header compression,and 
+              strean prioritization to minimize page load latency 
+           * google announced that it would not provide support for "SPDY" in favor of HTTP2
+              -> "SPDY" = Application-layer protocol for transporting content over the 
+                          web.It is designed specifically for minimal latency.
+          * HTTP2 is able to use single TCP connection to send multiple streams of data at once 
+            so that no one resource blocks any other resources.
+
+
+    
